@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>노래 가사집 - {{title}}</title>
+		<meta charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="/static/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+	</head>
+	<body>
+       <div style="background-image:url('/static/background.jpg')">
+		<a href ="/"><h1>노래가사집 - {{title}}</h1></a>
+        <div>
+             <button type ="button"><a href="/main"><font color="black">Go to Main</font></a></button>
+        </div>
+		<div id="container">
+            <div id=box1>
+               
+				<ol>
+                    {{menu|safe}}
+				</ol>
+				<br>
+				<ul class="animated infinite bounce">
+					<img src="/static/fightingKorea.jpg" alt="cheer-up" width="150px">
+				</ul>
+			</div>
+
+			<div id=box2, style="background-color:rgba(255, 255, 255, 0.521);"><h2>{{title}}</h2>
+                <form action="/create" method="post">
+                    <p><input type="text" name='title' placeholder="title"></p>
+                    <p><textarea name="lyrics" placeholder="lylics"></textarea></p>
+                    <p><textarea name="url" placeholder="url"></textarea></p>
+                    <button type="submit">제출</button>
+                </form>
+                
+			</div>
+		</div>
+
+      </div>
+	</body>
+</html>
+
+    

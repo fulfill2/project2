@@ -1,0 +1,45 @@
+<style>
+	body{
+		background-image: url("/static/background.jpg");
+        font-family: 'Gaegu', cursive
+	
+	}
+	h1{
+		border-bottom: 3px solid rgb(228, 228, 228);
+		padding:10px;
+		margin-bottom: 0;
+		color: white;
+        background-color: rgba(155, 152, 152, 0.521);
+	
+	}
+	#container{
+		display:grid;
+		grid-template-columns: 200px 1fr;
+		font-family: 'Gaegu', cursive;
+        font-size: 25px;
+	}
+	#box1{
+		border-right: 1px dashed rgb(202, 206, 196);
+		padding:0;
+		margin:0;
+        background-color: rgba(155, 152, 152, 0.521);
+      
+	
+	}
+	#box2{
+		margin-top:0;
+        
+		padding-left:30px
+	}
+	#buttons{
+		text-align : right;
+        width : 500; 
+		padding-left:30px
+	}
+	a, ol{
+		color: white; */
+		background-color: rgba(211, 211, 211, 0.144);
+		font-weight: bold;
+        text-decoration:none;
+	}
+</style>

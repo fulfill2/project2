@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>노래가사집 - {{title}}</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1><a href="/">노래가사집</a></h1>
+    <h2>{{title}}</h2>
+    <form action="/login" method="post">
+        <div id= "buttons">
+            <p>이름<input type="text" name="id" placeholder="username"></p>
+            <p>비밀번호<input type="password" name="password" placeholder="password"></p>
+        </div>
+        <button type="submit">로그인</button>
+    </form>
+    {{ message }}
+</body>
+</html>
