@@ -1,0 +1,35 @@
+ㅇ login
+ - session 관리
+ - mysql 회원 목록 정리
+ - 비밀번호 sha이용해서 잘 해라(선생님것 그대로)
+
+ㅇ logout
+ - 선생님것 그대로
+
+ㅇ delete
+ - 선생님것
+
+ㅇ create
+ - seleninum으로 유투브 링크, 지니뮤직 가사 가고
+ - request로 받아오고
+ - soup, regex로 고것만 추출하고
+ 
+ㅇ update
+ - 선생님것
+
+ㅇ 회원 관리 page
+
+ㅇ 그외 
+ - template : soup으로 추출한것 safe 라고 명시해서 잘 뜨게 만들기
+  : main(if 문으로 sessionid 체크해서 ol 유무 선정), 
+  : login
+  : create
+  : update
+  : 회원관리 창 
+
+ (완료)1. - mysql --> bitnam으로 데이터 만들기
+    
+table1; author
+ id, name, password
+table2: content
+ id songtitle, lyrics, created, url
