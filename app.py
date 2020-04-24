@@ -33,6 +33,7 @@ def get_template(filename):
         
     return template
 
+
 @app.route("/")
 def index():    
     if 'user' in session:
